@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">GeradorDeSenha</string>
+    <string name="btn_sign_up">Salvar</string>
+    <string name="hint_password">Senha</string>
+    <string name="hint_cpassword">Confirme a senha</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_name">Usuário</string>
+    <string name="err_msg_name">Informe o nome!</string>
+    <string name="err_msg_email">Informe um E-mail válido!</string>
+    <string name="err_msg_password">Informe a senha!</string>
+    <string name="btn_signup">Entrar</string>
+    <string name="msg_salve_login">Usuário cadastrado com sucesso!</string>
+    <string name="msg_salve_senha">Senha gravada com sucesso!</string>
+    <string name="title_activity_list_senha">ListSenhaActivity</string>
+
+
+</resources>
