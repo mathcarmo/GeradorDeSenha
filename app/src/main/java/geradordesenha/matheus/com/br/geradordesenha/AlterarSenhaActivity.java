@@ -56,13 +56,12 @@ public class AlterarSenhaActivity extends AppCompatActivity {
 
 
     public void btnSalvarLogin(View v){
-        if (!senha.getText().toString().isEmpty()){
+        if (senha.getText().toString().isEmpty()){
             RecursosUteis.dialogOk(this,"Atenção","As senhas estão vazias \n Tente Novamente","OK",R.drawable.icone);
-        }else{
-                (!senha.getText().toString().equals(cSenha.getText().toString())) {
+        }else if(!senha.getText().toString().equals(cSenha.getText().toString())) {
                 RecursosUteis.dialogOk(this, "Alterar Login", "As senhas não são iguais \n Tente novamente", "OK", R.drawable.icone);
             }
-        }else if{
+        else{
             login.setLogin(usuario.getText().toString());
             login.setSenha(senha.getText().toString());
             lDao.editar(login);
